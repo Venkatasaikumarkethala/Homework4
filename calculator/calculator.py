@@ -21,12 +21,19 @@ def divide(a: float, b: float) -> float:
     return a / b
 
 class Calculator:
-    """Handles arithmetic operations using static methods."""
-
+    """Simple calculator class that supports basic operations."""
+    
     @staticmethod
-    def perform_operation(num1: float, num2: float, operation):
-        """Executes the given arithmetic operation."""
-        if operation not in [add, subtract, multiply, divide]:
-            raise ValueError("Invalid operation")
-        
-        return operation(num1, num2)
+    def perform_operation(num1, num2, operation):
+        """Executes the given arithmetic operation based on string input."""
+        operations = {
+            "add": add,
+            "subtract": subtract,
+            "multiply": multiply,
+            "divide": divide
+        }
+
+        if operation not in operations:
+            raise ValueError(f"Invalid operation: {operation}")
+
+        return operations[operation](num1, num2)

@@ -1,5 +1,3 @@
-def add(a,b):
-    return a + b
+from .calculator import add, subtract, multiply, divide, Calculator
 
-def subtract(a,b):
-    return a - b
+__all__ = ["add", "subtract", "multiply", "divide", "Calculator"]
