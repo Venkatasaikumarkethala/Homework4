@@ -19,3 +19,14 @@ def divide(a: float, b: float) -> float:
     if b == 0:
         raise ValueError("Cannot divide by zero!")
     return a / b
+
+class Calculator:
+    """Handles arithmetic operations using static methods."""
+
+    @staticmethod
+    def perform_operation(num1: float, num2: float, operation):
+        """Executes the given arithmetic operation."""
+        if operation not in [add, subtract, multiply, divide]:
+            raise ValueError("Invalid operation")
+        
+        return operation(num1, num2)
