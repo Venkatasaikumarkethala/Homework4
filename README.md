@@ -1,6 +1,6 @@
 Hello this is my Homework 4
 
-.# 📌 Advanced Calculator
+# 📌 Advanced Calculator
 
 This is the Advanced Calculator implementation for Homework 4. It extends the Basic Calculator from Homework 3 by adding:
 
@@ -8,19 +8,20 @@ Faker Library for Dynamic Test Data Generation
 Automated Test Case Generation with pytest --num_records=N
 Command-Line Interface (CLI) for User Input
 Exception Handling for Robust Error Prevention
-Pylint & Coverage for Code Quality Assurance
+Pylint & Coverage for Code Quality Assurance.
+
 ---
 
 ## 📜 Features
 
-✅ Basic Arithmetic Operations (Add, Subtract, Multiply, Divide)
-✅ OOP-Based Calculator Implementation (Static Methods, Instance Methods, Class Methods)
-✅ Calculation History Storage & Retrieval
-✅ Faker Integration for generating random test data
-✅ Dynamic Test Case Generation with pytest --num_records=100
-✅ Exception Handling (e.g., Divide by Zero, Invalid Inputs)
-✅ Command-Line Interface (CLI) for direct user input
-✅ 100% Test Coverage, Pylint, and Code Quality Checks
+✔️ Basic Arithmetic Operations (Add, Subtract, Multiply, Divide)
+✔️ OOP-Based Calculator Implementation (Static Methods, Instance Methods, Class Methods)
+✔️ Calculation History Storage & Retrieval
+✔️ Faker Integration for generating random test data
+✔️ Dynamic Test Case Generation with pytest --num_records=100
+✔️ Exception Handling (e.g., Divide by Zero, Invalid Inputs)
+✔️ Command-Line Interface (CLI) for direct user input
+✔️ 100% Test Coverage, Pylint, and Code Quality Checks
 
 ---
 
@@ -91,12 +92,12 @@ Using the Command-Line Interface (CLI)
 ## 🛠️ Running Tests
 
 ### Run Pytest
-``Bash``
-
+```bash
 python main.py 5 3 add
 python main.py 10 2 subtract
 python main.py 4 5 multiply
 python main.py 20 4 divide
+```
 
 Expected Output
 The result of 5 add 3 is equal to 8
@@ -151,11 +152,11 @@ pytest --cov
 ----
 🎯 Example Test Cases (Professor’s Instructions)
 
-✔️ "5", "3", 'add' → "The result of 5 add 3 is equal to 8"
-✔️ "10", "2", 'subtract' → "The result of 10 subtract 2 is equal to 8"
-✔️ "4", "5", 'multiply' → "The result of 4 multiply 5 is equal to 20"
-✔️ "20", "4", 'divide' → "The result of 20 divide 4 is equal to 5"
-✔️ "1", "0", 'divide' → "An error occurred: Cannot divide by zero"
-✔️ "9", "3", 'unknown' → "Unknown operation: unknown"
-✔️ "a", "3", 'add' → "Invalid number input: a or 3 is not a valid number."
-✔️ "5", "b", 'subtract' → "Invalid number input: 5 or b is not a valid number."
+- ✔️ "5", "3", 'add' → "The result of 5 add 3 is equal to 8"
+- ✔️ "10", "2", 'subtract' → "The result of 10 subtract 2 is equal to 8"
+- ✔️ "4", "5", 'multiply' → "The result of 4 multiply 5 is equal to 20"
+- ✔️ "20", "4", 'divide' → "The result of 20 divide 4 is equal to 5"
+- ✔️ "1", "0", 'divide' → "An error occurred: Cannot divide by zero"
+- ✔️ "9", "3", 'unknown' → "Unknown operation: unknown"
+- ✔️ "a", "3", 'add' → "Invalid number input: a or 3 is not a valid number."
+- ✔️ "5", "b", 'subtract' → "Invalid number input: 5 or b is not a valid number."
