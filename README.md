@@ -14,14 +14,14 @@ Pylint & Coverage for Code Quality Assurance.
 
 ## 📜 Features
 
-✔️ Basic Arithmetic Operations (Add, Subtract, Multiply, Divide)
-✔️ OOP-Based Calculator Implementation (Static Methods, Instance Methods, Class Methods)
-✔️ Calculation History Storage & Retrieval
-✔️ Faker Integration for generating random test data
-✔️ Dynamic Test Case Generation with pytest --num_records=100
-✔️ Exception Handling (e.g., Divide by Zero, Invalid Inputs)
-✔️ Command-Line Interface (CLI) for direct user input
-✔️ 100% Test Coverage, Pylint, and Code Quality Checks
+- ✔️ Basic Arithmetic Operations (Add, Subtract, Multiply, Divide)
+- ✔️ OOP-Based Calculator Implementation (Static Methods, Instance Methods, Class Methods)
+- ✔️ Calculation History Storage & Retrieval
+- ✔️ Faker Integration for generating random test data
+- ✔️ Dynamic Test Case Generation with pytest --num_records=100
+- ✔️ Exception Handling (e.g., Divide by Zero, Invalid Inputs)
+- ✔️ Command-Line Interface (CLI) for direct user input
+- ✔️ 100% Test Coverage, Pylint, and Code Quality Checks
 
 ---
 
@@ -110,8 +110,7 @@ python main.py 1 0 divide  # Error: Cannot divide by zero
 python main.py 5 b add  # Error: Invalid number input
 python main.py 10 2 mod  # Error: Unknown operation
 
-pytest tests/
-```
+## pytest tests
 
 ✔️ If all tests pass, you’ll see an output like:
 
