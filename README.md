@@ -26,6 +26,7 @@ Pylint & Coverage for Code Quality Assurance
 
 ## 📂 Project Structure
 
+```
 homework4_project/
 │── calculator/
 │   │── __init__.py
@@ -42,6 +43,8 @@ homework4_project/
 │── pytest.ini
 │── main.py                 # Command-line interface for user input
 │── .gitignore
+```
+
 ---
 
 ## ⚙️ Installation & Setup
